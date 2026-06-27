@@ -46,9 +46,13 @@ export default function CaseStudySection() {
               alt="Showcase sản phẩm mắm cá lóc Thới Bình trong bối cảnh sông nước"
               className="max-h-[650px] min-h-[320px] w-full rounded-[26px] object-cover"
             />
-            <div className="absolute bottom-6 left-6 max-w-[calc(100%-48px)] rounded-[20px] border border-white/70 bg-white/82 px-5 py-4 shadow-card backdrop-blur-md">
-              <p className="text-xs font-bold uppercase tracking-[0.14em] text-teal">Packaging Showcase</p>
-              <p className="mt-1 text-base font-bold text-[#1E3A4A] sm:text-lg">Mắm cá lóc Thới Bình — Yến Khoa</p>
+            <div className="absolute left-4 top-4 max-w-[calc(100%-32px)] rounded-full border border-white/70 bg-white/88 px-4 py-2 shadow-sm backdrop-blur-md sm:bottom-6 sm:left-6 sm:top-auto sm:max-w-[calc(100%-48px)] sm:rounded-[20px] sm:px-5 sm:py-4 sm:shadow-card">
+              <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-teal sm:text-xs sm:tracking-[0.14em]">
+                Packaging Showcase
+              </p>
+              <p className="mt-1 hidden text-base font-bold text-[#1E3A4A] sm:block sm:text-lg">
+                Mắm cá lóc Thới Bình — Yến Khoa
+              </p>
             </div>
           </div>
         </Reveal>
